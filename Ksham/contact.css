@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Poppins&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body {
+  font-family: "Fredoka", sans-serif;
+}
+
+body::before {
+  display: block;
+  content: "";
+  height: 60px;
+}
+
+/*Some of the primary styles are given below*/
+
+.active {
+  color: #fff;
+  font-weight: 900;
+}
+
+.bg {
+  color: #ffc300;
+}
+
+.bg2-primary {
+  background-color: #ffc300;
+}
+
+.background {
+  background-color: #fff8e0;
+}
+
+.bg2 {
+  background-color: #000814;
+}
+
+.hero-btn {
+  background-color: #ffc300 !important;
+  border: none;
+  color: #fff;
+}
+
+footer {
+  box-shadow: -20px -13px 30px rgba(0, 0, 0, 0.1);
+}
+
+.footer-links > .link {
+  margin-right: 10px;
+  color: #fff8e0;
+  text-decoration: none;
+}
+
+.footer-links > .link:hover {
+  text-decoration: underline;
+}
+
+/*Form Related styles*/
+
+.form {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.form textarea {
+  height: 250px;
+}
+
+.form input,
+.form textarea {
+  background-color: #222;
+  color: #fff;
+  border: 1px solid #444;
+}
+
+.form input::placeholder,
+.form textarea::placeholder {
+  color: #888;
+}
+
+.form input:focus,
+.form textarea:focus {
+  background-color: #333;
+  color: #fff;
+  border-color: #666;
+}
+
+.col-md-5 img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+}
