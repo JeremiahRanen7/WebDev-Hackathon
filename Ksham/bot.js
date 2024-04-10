@@ -8,7 +8,7 @@ const sendChatBtn = document.querySelector(".chat-input span");
 
 // Variable to store user's message
 let userMessage = null; 
-const API_KEY = "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";
+const API_KEY = "Your-API-KEY";
 const inputInitHeight = chatInput.scrollHeight;
 
 //This arrow function is used to create a list element for the chat
