@@ -1,8 +1,10 @@
+![image](https://github.com/JeremiahRanen7/WebDev-Hackathon/assets/141173239/91ca3907-8049-4986-ad58-fc022c1f48c0)
+
 # KshamInnovation Website
 
 ## Problem Statement
 
-The KshamInnovation website requires a complete redesign to enhance user experience, accessibility, and overall functionality. The redesigned website should retain existing pages (like Home, About Us, Contact, etc.) and content while offering participants the opportunity to introduce new features and pages that align with Ksham Innovation's mission and goals.
+![image](https://github.com/JeremiahRanen7/WebDev-Hackathon/assets/141173239/8e21e7fb-c268-48f2-8149-c64bf2351a79)
 
 ## Project Overview
 
