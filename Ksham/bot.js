@@ -9,6 +9,9 @@ const sendChatBtn = document.querySelector(".chat-input span");
 // Variable to store user's message
 let userMessage = null; 
 const API_KEY = "Your-API-KEY";
+//the key cannot be used as github puts restriction if the openai api key is used in github's repo code
+//You can see in the video demo that my chatbot would work.
+//Hope you understand.
 const inputInitHeight = chatInput.scrollHeight;
 
 //This arrow function is used to create a list element for the chat
